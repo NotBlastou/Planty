@@ -114,6 +114,13 @@ class Email_Logger
      */
     public function get_log()
     {
+			if (!current_user_can('administrator')) {
+				wp_die(wp_json_encode([
+							'success' => false,
+							'message' => esc_html__('Denied', 'kaliforms'),
+					]));
+				}
+
         if (!isset($_POST['args'], $_POST['args']['nonce'])) {
             wp_die(wp_json_encode([
                 'success' => false,

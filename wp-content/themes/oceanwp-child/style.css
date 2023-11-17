@@ -1,0 +1,155 @@
+/*
+Theme Name: oceanwp-child
+Template: oceanwp
+Author: Benoit - WPserveur
+Author URI: https://www.wpserveur.net
+Description: oceanwp enfant
+Version: 0.1.0.1698419629
+Updated: 2023-10-27 15:13:49
+
+*/
+
+
+#footer-widgets {
+    display: none;
+    background-color: #ffffff;
+    padding: 0px 0;
+    margin: 0;
+}
+
+#footer-bottom {
+    background-color: #ffffff;
+    padding: 15px 0;
+    font-size: 12px;
+    line-height: 1;
+    color: #fff;
+}
+
+#footer-bottom #footer-bottom-menu a {
+    color: #000;
+}
+
+#footer-bottom-inner {
+
+display: flex;
+justify-content: center;
+
+}
+
+#footer-bottom #footer-bottom-menu ul {
+    margin: 0;
+    list-style: none;
+
+}
+
+#footer-bottom #footer-bottom-menu {
+    float: right;
+    text-align: center;
+    padding-left: 0px;
+}
+
+#footer-bottom #footer-bottom-menu li {
+    float: left;
+}
+
+body {
+
+    justify-content: center !important;
+}
+
+
+
+#footer-bottom #footer-bottom-menu {
+    text-align: center;
+}
+
+
+.site-footer {
+    position: relative;
+    text-align:center;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+    font-size:13px;
+}
+
+form input[type=text], form input[type=password], form input[type=email], form input[type=url], form input[type=date], form input[type=month], form input[type=time], form input[type=datetime], form input[type=datetime-local], form input[type=week], form input[type=number], form input[type=search], form input[type=tel], form input[type=color], form select, form textarea {
+    display: inline-block;
+    min-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.8;
+    padding: 6px 12px;
+    vertical-align: middle;
+    background-color: rgba(0,0,0,0);
+    color: #333;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    background-color: white;
+}
+
+input[type=button], input[type=reset], input[type=submit], button[type=submit], .button, body div.wpforms-container-full .wpforms-form input[type=submit], body div.wpforms-container-full .wpforms-form button[type=submit], body div.wpforms-container-full .wpforms-form .wpforms-page-button {
+    display: inline-block;
+    font-family: inherit;
+    background-color: #E0B9B4;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 14px 20px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: .1em;
+    line-height: 1;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    Width: 198px;
+    Height: 55px;
+    border-radius: 5px;
+    
+
+}
+
+.wpcf7-spinner {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #23282d;
+    opacity: 0.75;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 0px;
+    position: relative;
+    display: none;
+}
+
+#envoyer {
+
+    display: flex;
+    justify-content: center;
+}
+
+.police { 
+
+    font-family: Syne;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    color: #000;
+}

@@ -4,7 +4,7 @@ Tags: contact form, contact form plugin, forms, form builder, custom form, conta
 Requires at least: 5.2
 Tested up to: 6.3
 Requires PHP: 5.6
-Stable tag: 2.3.28
+Stable tag: 2.3.29
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -182,6 +182,9 @@ The easiest and recommended way to install is to click on 'Plugins' then 'Add Ne
 7. Options presets
 
 == Changelog ==
+2.3.28
+- Email log verifies user role before anything else
+
 2.3.27
 - Fixed a vulnerability that allowed data submission to forms that where not published
 

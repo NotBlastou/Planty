@@ -12,6 +12,17 @@ document.addEventListener(
 	false
 );
 
+document.addEventListener(
+	"no_access_dlm_xhr_download",
+	() => {
+		const forms = document.querySelectorAll(".kaliforms-form-container");
+		Array.prototype.forEach.call(forms, (e) => {
+			new FormProcessor(e);
+		});
+	},
+	false
+);
+
 if (window?.CTCommonDirectives || window?.CTFrontendBuilder) {
 	jQuery(document).ready(() => {
 		const forms = document.querySelectorAll(".kaliforms-form-container");
