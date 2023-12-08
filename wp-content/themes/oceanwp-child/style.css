@@ -224,8 +224,62 @@ background-color: #dc9f96;
 
 }
 
-.text-wrap {
+a[href="http://planty.local/commander/"].menu-link {
 
+    color: #fff !important;
+
+}
+
+.menu-class {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.menu-class li:nth-child(1) {
+    order: 2;
+}
+
+.menu-class li:nth-child(2) {
+    order: 1;
+}
+
+.menu-class li:nth-child(3) {
+    order: 3;
+}
+
+.search-toggle-li {
+
+display: none !important;
+
+}
+
+#menu-header {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+#menu-header ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#menu-header li:nth-child(1) {
+    order: 1 !important;
+}
+
+#menu-header li:nth-child(2) {
+    order: 3 !important;
+}
+
+#menu-header li:nth-child(3) {
+    order: 2 !important;
+}
+
+#menu-header li:nth-child(4) {
+    order: 0 !important;
 }
 
 
@@ -251,4 +305,10 @@ background-color: #dc9f96;
         justify-content: flex-start;
         display: block;
     }
+
+    .elementor-8 .elementor-element.elementor-element-e31c39a:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-e31c39a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-position: 0px 420px !important;
+    }
   }
+
+
