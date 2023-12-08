@@ -153,3 +153,102 @@ input[type=button], input[type=reset], input[type=submit], button[type=submit], 
     line-height: 24px;
     color: #000;
 }
+
+.elementor-28 .elementor-element.elementor-element-d8deead.e-con {
+    --align-self: flex-start;
+    --order: 99999 /* order end hack;; */;
+    --flex-grow: 1;
+    --flex-shrink: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.police2 {
+
+    font-family: Syne;
+    font-weight: 700;
+    font-size : 30px;
+    line-height: 36px;
+    color: #ffffff;
+
+}
+
+.police3 { 
+
+    font-family: Syne;
+    font-weight: 400;
+    font-size : 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.position {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulaire {
+
+    justify-content: flex-start;
+    display: grid;
+}
+
+.formulaire2 {
+
+    justify-content: flex-end;
+    display: grid;
+}
+
+.verticale {
+
+    border-left: 2px solid rgb(255, 255, 255); 
+    height: 300px; 
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+}
+
+.commande {
+
+    display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+}
+
+.menu-item-78 {
+
+background-color: #dc9f96;
+
+}
+
+.text-wrap {
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .commande {
+
+        display: block;
+    }
+
+    .verticale {
+
+        display: none;
+    }
+
+    .formulaire2 {
+
+        justify-content: flex-end;
+        display: block;
+    }
+
+    .formulaire {
+
+        justify-content: flex-start;
+        display: block;
+    }
+  }
